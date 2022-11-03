@@ -1,0 +1,22 @@
+@media (min-width: 1024px) {
+.container {
+  /* margin: auto 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 90%;
+  box-shadow: 0px 0px 30px 1px #507add6e;
+}
+}
+@media (max-width: 1023px){
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 30px 1px #507add6e;
+}
+}
